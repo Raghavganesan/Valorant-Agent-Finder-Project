@@ -1,0 +1,115 @@
+ body {
+             font-family: 'Orbitron', sans-serif;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding:30px;
+        }
+        body{
+            background: linear-gradient(120deg, #1f1c2c, #928dab);
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        .conti{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 500px;
+            gap:15px;
+            text-align: center;
+        }
+        h1{
+            font-size: 2.5rem;
+            color: #f04af0;
+            margin-bottom: 20px;
+        }
+        input.agent{
+            padding: 10px;
+            font-size: 1rem;
+            width: 250px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        button.btn{
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #f04af0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button.btn:hover{
+            background-color: #d13b3b;
+        }
+        .cont{
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(240,74,240,0.3);
+            transition: background-color 0.3s ease;
+        }
+        .cont:empty{
+            display:none;
+        }
+        .blacktheme .cont {
+            background-color: rgba(255,255,255,0.03);
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
+}
+        .cont img{
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 0 15px rgba(255,255,255,0.2);
+        }
+        .cont h3{
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .cont p{
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        .blacktheme{
+           background: linear-gradient(120deg, #000000, #434343);
+        }
+        .blacktheme h1{
+            color: white;
+        }
+        .blacktheme .cont p{
+            color: white;
+        }
+        button.themee{
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #f04af0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button.themee:hover{
+            background-color: #3737d1;
+        }
+
+        .blacktheme input.agent{
+            background-color: #222;
+            color: white;
+            border: 1px solid #555;
+        }
+        .blacktheme input.agent::placeholder{
+            color: #ccc;
+        }
+        .blacktheme h3{
+            color: white;
+        }
